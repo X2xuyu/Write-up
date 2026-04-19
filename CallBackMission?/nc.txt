@@ -1,1 +1,83 @@
-
+┌──(root㉿kali-wsl)-[/mnt/d/itclash/jwtCookie]
+└─# nc instance.ctf.it.kmitl.ac.th 5168
+[BOOT] 802.11 Monitor Interface
+[INFO] wlan0: switched to monitor mode (channel 6)
+[DEBUG] Captured EAPOL-Key frame (Message 1 of 4)
+[INFO] 4-way handshake | ANonce=d504f333f3379c6e5cf1e2489f96c33d
+[DEBUG] Captured EAPOL-Key frame (Message 2 of 4)
+[INFO] 4-way handshake | SNonce=15198fa8f4d89b1a58f17a197533da1a
+[DEBUG] Captured EAPOL-Key frame (Message 3 of 4)
+[INFO] 4-way handshake | Install PTK | nonce=5a36b4d6
+[WARNING] Retransmission detected for EAPOL-Key Message 3
+[INFO] 4-way handshake | Install PTK | nonce=5a36b4d6
+[DEBUG] Captured EAPOL-Key frame (Message 4 of 4)
+[INFO] 4-way handshake | ACK received
+[WARN] State machine anomaly: TKIP/CCMP replay counter resynchronization
+[INFO] Entering raw capture mode...
+nonce=95edf113 len=32 cipher=3a255a2f79c3f4c23d2ea27d59523665468555a44e9b71ff2f209ec6ac9a8758
+[DEBUG] Buffer flush triggered (Queue > 80%)
+[DEBUG] Buffer flush triggered (Queue > 80%)
+[DEBUG] Dropping packet (FCS Error) size=74
+[INFO] QoS Null frame (No Data) from 23:0c:5d:xx:xx:xx
+nonce=eac6edc6 len=45 cipher=3e3f1f5afce7f9c79d0bb611fcb8aa25e623b7213353ba5345fa33f32949649b74bcff9787453edb8d992f801c
+[INFO] 802.11 Probe Request (SSID: hidden) - bc:34:fc:xx:xx:xx
+[DEBUG] Buffer flush triggered (Queue > 80%)
+nonce=a1a8b713 len=60 cipher=cf7758f060645fc936da36b9aa62d93745d218468e522373ac0c436081ab6e608e1334f2cc71ad75c9ea80eb74a6be6f60f445a2d271d1996bd6007a
+nonce=ffc36478 len=52 cipher=9770ba6fa2fc7c1b4f196f3608c2bb6796b28b104bf3d4d7776f22fc7e03b90797d1f4d80a05086d913da10c9260e3f5246a0dba
+[INFO] 802.11 Probe Request (SSID: hidden) - ec:1c:df:xx:xx:xx
+[DEBUG] Ignored Beacon Frame from 55:65:95:xx:xx:xx
+[DEBUG] Ignored Beacon Frame from 58:c4:4f:xx:xx:xx
+[DEBUG] Dropping packet (FCS Error) size=34
+[INFO] 802.11 Probe Request (SSID: hidden) - f8:cd:8d:xx:xx:xx
+[WARN] Channel interference detected. RSSI: -71dBm
+[DEBUG] Dropping packet (FCS Error) size=66
+[DEBUG] Ignored Beacon Frame from b1:9f:b4:xx:xx:xx
+[DEBUG] Dropping packet (FCS Error) size=99
+[DEBUG] Buffer flush triggered (Queue > 80%)
+[INFO] 802.11 Probe Response - 79:be:ee:xx:xx:xx
+nonce=9a196f4a len=23 cipher=339e57d8ffe4a6818e911bde415e9ced0726ba5e8244b8
+nonce=f3f24a62 len=60 cipher=d39262110aa030deded49890eff87fe8662d765c87b435a9fa0948f53d13684b16a49ec92960adb303296041f729c6cd85ca952cc820ee32d1c8e77e
+[DEBUG] Dropping packet (FCS Error) size=84
+nonce=19b76990 len=33 cipher=caf50b1c5a43d928c1bb25d237f8bf18cfda9b21939078d12d7d03a2ad1c844519
+[DEBUG] Dropping packet (FCS Error) size=30
+nonce=3fe50905 len=24 cipher=ac0dbcd02a7bb4e5156dd1097bc24fdfd9858221085cadc9
+[WARN] Channel interference detected. RSSI: -73dBm
+nonce=81d1c797 len=36 cipher=accc8ecb56df4d13df57b653ab75376dcdc908a46579b1eaf816996268c1b189ff9d33f0
+[DEBUG] Buffer flush triggered (Queue > 80%)
+nonce=0fee8fd7 len=27 cipher=9021cfcd535ebc04b558b318cc26d68d792cc612f5f78bd8097230
+nonce=5a36b4d6 len=47 cipher=bc9d4bf6a90a474f60415185e9f1d4286fdf978f113a7f71acd28a68f13f2cff48e59959a2e4ce0f46d53d57cac1cc
+nonce=5a36b4d6 len=76 cipher=b0965081c834736e486630a2c9ddf41e51f9a7eb37014e4789f0be49d5140ed5639bac6b81c3b8024dd2282ba8a6b2309d8bd4fafad3a17651c1f58756ee12555a6804d35c7a9ad0ad8d5e54
+nonce=1749b89f len=21 cipher=1accfbbdcfe7e1626f435e3dcf4f0464cdf421b6c9
+nonce=213ca2f4 len=58 cipher=10604c67b1e81788657a1e298f68573b96b623bdb45048e32fb7717f7b0df7909bfc76b1c279a7be2f30ee7ec127533ec4110d44bf8132a41ed4
+nonce=d8230f81 len=36 cipher=064f43f6dd780344cb830d628f7fb3aa4542ef4a1e4512e69ee95b7ea8f0c6b617605661
+[DEBUG] Buffer flush triggered (Queue > 80%)
+[WARN] Channel interference detected. RSSI: -67dBm
+nonce=c55e7187 len=20 cipher=7bd773dc3411ee03a514c42bb96a85c99357b614
+[DEBUG] Buffer flush triggered (Queue > 80%)
+[INFO] QoS Null frame (No Data) from c5:a4:cf:xx:xx:xx
+[WARN] Channel interference detected. RSSI: -66dBm
+nonce=d50574c8 len=49 cipher=a81a0d01adb8cfbf32261e1d39872b613a92dca5e4e938d8fefcad35e9307097f17fffc4d0d99994da9700242d3fda3f32
+[DEBUG] Buffer flush triggered (Queue > 80%)
+[INFO] 802.11 Probe Response - ee:46:ae:xx:xx:xx
+nonce=5a36b4d6 len=27 cipher=9abb6bbfe9051e4e66481798aaf0d32473d685cd17687073a8dc91
+nonce=01b4f2d1 len=17 cipher=850a66cdf42d0525300563ed334337c854
+[INFO] QoS Null frame (No Data) from bc:e5:66:xx:xx:xx
+[INFO] RTS/CTS exchange detected - Duration 152Î¼s
+[DEBUG] Ignored Beacon Frame from 56:7b:72:xx:xx:xx
+nonce=8e7a6e58 len=56 cipher=84c60e767ad238408b7ade11d9eca7f5680f9dacee01b7e6923bf2e770f9ed53c353c3b531460e7b1bee44a0543d7bf8d4a8fb359f8809cd
+nonce=5a36b4d6 len=37 cipher=b8b45fa5ee5d6144651b198de7f795224884bbef1b394e54f5d99e69f81436ff058e8909b0
+[DEBUG] Buffer flush triggered (Queue > 80%)
+[INFO] QoS Null frame (No Data) from 90:f7:90:xx:xx:xx
+[DEBUG] Dropping packet (FCS Error) size=76
+nonce=fb59b8d3 len=30 cipher=e67801f5536c2380c19b4b4a2f478bcf290f2550454ff310d9028ccfa263
+[INFO] RTS/CTS exchange detected - Duration 113Î¼s
+[DEBUG] Ignored Beacon Frame from 62:64:7b:xx:xx:xx
+[DEBUG] Ignored Beacon Frame from 4c:ae:0e:xx:xx:xx
+[DEBUG] Buffer flush triggered (Queue > 80%)
+nonce=a88e4d96 len=53 cipher=239780db19b549c80f4618f434cf71a2e6118529271366a395dd23b55a1681e9e62f67526ffb5b5ac1d110509991e08d0aa46ebb9f
+[INFO] 802.11 Probe Request (SSID: hidden) - 27:36:69:xx:xx:xx
+[DEBUG] Dropping packet (FCS Error) size=48
+[DEBUG] Ignored Beacon Frame from 7f:04:2f:xx:xx:xx
+[DEBUG] Buffer flush triggered (Queue > 80%)
+[DEBUG] Dropping packet (FCS Error) size=57
+nonce=7ed9d6d2 len=35 cipher=d29e5ec41a7d045d8485b22828f8ee5693fb29a57ee42fc5ef26e061a171987627bacc
