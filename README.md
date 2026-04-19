@@ -1,6 +1,6 @@
-# IT Clash 2026 🚩
+# IT Clash 2026 (online)🚩
 ยินดีต้อนรับสู่ Repository รวบรวม Solution สำหรับการแข่งขัน **IT Clash 2026** ของทีม **"พอแล้ว พอแล้ว พอแล้ว รวยไม่ไหวแล้ว"**
-## 🏆 Team Overview
+## Top5 Team Overview
 - **Team Name**: พอแล้ว พอแล้ว พอแล้ว รวยไม่ไหวแล้ว
 - **Event**: IT Clash 2026
 - **Status**: Completed 30 Challenges
