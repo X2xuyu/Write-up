@@ -4,7 +4,7 @@ import time
 import sys
 from concurrent.futures import ThreadPoolExecutor
 
-URL = "http://instance.ctf.it.kmitl.ac.th:5029/submit"
+URL = "http://instance.ctf.it.kmitl.ac.th:5058/submit"
 SLEEP_TIME = 0.8  # Reduced from 1.5s
 THRESHOLD = 0.5    # Reduced from 1.2s; typical latency is ~0.1s
 MAX_THREADS = 10   # Adjust based on server stability
